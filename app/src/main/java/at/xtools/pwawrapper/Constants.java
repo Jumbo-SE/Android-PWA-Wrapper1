@@ -4,7 +4,7 @@ public class Constants {
     public Constants(){}
     // Root page
     public static String WEBAPP_URL = "127.0.0.1:8080";
-    public static String WEBAPP_HOST = "localhost:8080"; // used for checking Intent-URLs
+    public static String WEBAPP_HOST = "/phpmyadmin"; // used for checking Intent-URLs
 
 	// User Agent tweaks
     public static boolean POSTFIX_USER_AGENT = true; // set to true to append USER_AGENT_POSTFIX to user agent
