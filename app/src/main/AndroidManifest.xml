@@ -20,7 +20,7 @@
         <activity android:name="at.xtools.pwawrapper.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme.Launch">
-            <!-- <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -29,7 +29,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
-                    android:host="localhost:8080"
+                    <!-- android:host="localhost:8080"
                     android:pathPrefix="/"
                     android:scheme="http" />
                 <data
@@ -43,8 +43,8 @@
                 <data
                     android:host="localhost:8080"
                     android:pathPrefix="/"
-                    android:scheme="https" />
-            </intent-filter> -->
+                    android:scheme="https" /> -->
+            </intent-filter>
         </activity>
 
         <!--Support super wide screens-->
