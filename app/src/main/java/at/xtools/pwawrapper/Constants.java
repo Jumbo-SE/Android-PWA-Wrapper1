@@ -3,8 +3,8 @@ package at.xtools.pwawrapper;
 public class Constants {
     public Constants(){}
     // Root page
-    public static String WEBAPP_URL = "http:localhost:8080/";
-    public static String WEBAPP_HOST = "localhost"; // used for checking Intent-URLs
+    public static String WEBAPP_URL = "http://localhost:8080";
+    public static String WEBAPP_HOST = "/phpmyadmin"; // used for checking Intent-URLs
 
 	// User Agent tweaks
     public static boolean POSTFIX_USER_AGENT = true; // set to true to append USER_AGENT_POSTFIX to user agent
