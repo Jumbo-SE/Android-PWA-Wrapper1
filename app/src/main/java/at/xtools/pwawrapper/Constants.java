@@ -3,7 +3,7 @@ package at.xtools.pwawrapper;
 public class Constants {
     public Constants(){}
     // Root page
-    public static String WEBAPP_URL = "https://www.github.com/Jumbo810/";
+    public static String WEBAPP_URL = "";
     public static String WEBAPP_HOST = "localhost:8080"; // used for checking Intent-URLs
 
 	// User Agent tweaks
